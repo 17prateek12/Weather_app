@@ -11,15 +11,16 @@ export const currentweather = async (value) => {
     return await response.json();
 };
 
-export const getlocation = async (value) => {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${value}&appid=${apikey}`;
+export const getlocation = async(value)=>{
+    const url=`https://api.openweathermap.org/geo/1.0/direct?q=${value}&appid=${apikey}`;
     const response = await fetch(url);
-    if (!response.ok) {
-        const message = `An error has occured: ${response.status}`;
+    if(!response.ok){
+        const message=`An error has occurred: ${response.status}`;
         throw new Error(message);
     }
     return await response.json();
 }
+
 
 
 export const getforcast = async (value) => {
