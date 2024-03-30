@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (max-width:600px){
+  body{
+    font-size: 12px;
+    background-color: rgb(28, 28, 28);
+
+  }
+} 
+
+@media (min-width:600px) and (max-width:1200px){
+  body{
+    font-size: 13px;
+  }
+} 

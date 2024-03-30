@@ -1,0 +1,40 @@
+.forcast {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.forcastcard {
+    height: 220px;
+    width: 360px;
+    background-color: rgba(57, 56, 56, 0.8);
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.imgicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maindiv {
+    width: inherit;
+    margin: 30px;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: orange !important;
+}

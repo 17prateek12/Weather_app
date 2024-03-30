@@ -1,0 +1,39 @@
+.custom-tooltip {
+  background-color: #111827;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1343f0f1;
+}
+
+.custom-tooltip .label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.custom-tooltip .revenue,
+.custom-tooltip .profit,
+.custom-tooltip .temp {
+  font-size: 14px;
+  margin: 0;
+}
+
+.graphcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphbg {
+  background-color: rgb(15, 15, 15, 0.75);
+}
+
+.for {
+  text-align: center;
+}
+
+@media(max-width:600px) {
+  .for {
+    color: #fff;
+  }
+
+}

@@ -1,0 +1,11 @@
+.realtime {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.timetrue {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}

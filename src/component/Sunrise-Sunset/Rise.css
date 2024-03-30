@@ -1,0 +1,20 @@
+.sunriseset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sun {
+  height: 80px;
+  width: 80px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: -15px;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: -10px;
+}

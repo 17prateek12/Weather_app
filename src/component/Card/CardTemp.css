@@ -1,0 +1,11 @@
+.bodymain {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.box {
+    display: flex;
+    align-items: last baseline;
+    gap: 30px;
+}
