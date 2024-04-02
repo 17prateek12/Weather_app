@@ -5,7 +5,7 @@ import "./TempChart.css";
 const TempChart = ({ data }) => {
   return (
     <div className='graphcontainer'>
-      <ResponsiveContainer width="80%" height={400}>
+      <ResponsiveContainer width="90%" height={400}>
         <LineChart
           data={data}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
@@ -21,7 +21,7 @@ const TempChart = ({ data }) => {
           <Line type="monotone" dataKey="temp" stroke="green" name="Temp" />
         </LineChart>
       </ResponsiveContainer>
-    </div>
+      </div>
   );
 };
 
